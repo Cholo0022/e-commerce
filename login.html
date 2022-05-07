@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Alura Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    <img src="images/Logo.svg" alt="Logo de Alura Geek" class="image__logo" />
+                </div>
+                <div class="head__search">
+                    <input type="text" name="buscador" id="buscador" placeholder="¿Que desea buscar?" />
+                    <img src="images/Icone-search.svg" alt="Lupa del buscador" />
+                </div>
+                <div class="head__btn-login">
+                    <button>Login</button>
+                </div>
+                <div class="lupa">
+                    <img src="images/Icone-search.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="login">
+                    <h2>Inicio Sesión</h2>
+                    <form class="login__formulario">
+                        <div class="input-container">
+                            <input type="email" name="email" id="email" class="input"
+                                placeholder="Escriba su correo electrónico" required data-tipo="email">
+                            <span class="input-mensaje-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="password" id="password" class="input" type="password" placeholder="Contraseña"
+                                required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" data-tipo="password">
+                            <span class="input-mensaje-error">Este campo no es valido</span>
+                        </div>
+                        <button id="btnLogin"><a href="producto-agregar.html">Entrar</a></button>
+                        <span id="noRegistrado"></span>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="formulario__rodapie">
+
+            <div class="logo">
+                <img src="images/Logo.svg" alt="Logo de Alura Geek" class="image__logo" />
+            </div>
+            <div class="link">
+                <a href="#">Quienes somos</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Programa de fidelidad</a>
+                <a href="#">Nustras Tiendas</a>
+                <a href="#">Quiero ser franquicia</a>
+                <a href="#">Anuncie aquí</a>
+            </div>
+
+            <div class="contacto">
+                <h3>Hablo con nosotros</h3>
+                <form>
+                    <div class="input-container">
+                        <label for="nombre">Nombre</label>
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required
+                            data-tipo="nombre" maxlength="40">
+                        <span class="input-mensaje-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <textarea name="mensaje" id="mensaje" class="input" rows="10"
+                            placeholder="Escriba aquí su mensaje" required data-tipo="mensaje"
+                            maxlength="120"></textarea>
+                        <span class="input-mensaje-error">Este campo no es valido</span>
+                    </div>
+
+                    <button>Enviar mensaje</button>
+
+                </form>
+            </div>
+
+
+        </section>
+
+        <div class="rodapie">
+            &copy; Copyright Andrés A. Bozzani
+            <p>2022</p>
+        </div>
+    </footer>
+    <script src="js/login.js"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>

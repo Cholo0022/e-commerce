@@ -1,0 +1,154 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding-top: 32px;
+    padding-bottom: 32px;   
+    width: 100%; 
+}
+
+.head__search{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    background: #F5F5F5;
+    border-radius: 20px;
+    max-width: 393px;
+    width: 100%;
+}
+
+.head__search input{
+    background:  #F5F5F5;
+    border: none;
+    margin: 8px 16px;
+    padding: 8px 16px;
+    width: 100%;
+}
+
+.head__btn-login{ 
+   display: inline-block;  
+   max-width: 182px;
+   width: 100%;
+   text-align: center;
+}
+
+.head__btn-login button{
+    padding: 16px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    color: #2A7AE4;
+    background: #ffffff;
+    width: 100%;
+    cursor: pointer; 
+}
+
+.lupa{
+    display: none;
+}
+
+.head__image-banner{
+    background: url(../images/banner-image.png);
+    max-width: 1440px;
+    width: 100%;
+    height: 352px;
+}
+
+.head__container-texto-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #ffffff;
+}
+
+
+.head__titulo{
+    margin: 16px 0px;
+    font-size: 52px;
+}
+
+.head__descripcion{
+    font-size: 22px;
+    margin: 16px 0px;
+}
+
+.head__btn{
+    background: #2A7AE4;
+    color: #ffffff;
+    border: none;
+    max-width: 129px;
+    width: 100%;
+    padding: 16px;
+    cursor: pointer;
+    margin: 16px 0px;
+}
+
+@media screen and (max-width: 768px){
+
+    
+    .head__search input{
+        max-width: 272px;
+        width: 100%; 
+       
+    }
+
+    .head__btn-login button{
+        max-width: 166px;
+        width: 100%;
+    }
+    
+    .lupa{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 360px){
+    .head{
+        justify-content: space-around;
+        margin: 0;
+    }
+    .logo{
+        width: 100px;
+    }
+    .head__search{
+        display: none;
+    }
+
+    .head__btn-login button{    
+        width: 133px;
+        height: 40px;
+        line-height: 0px;
+        text-align: center;
+    }
+
+    .lupa{
+        display: block;
+    }
+
+    .head__image-banner{
+        background: url(../images/banner-image-mobile.png);
+        max-height: 192px;
+        height: 100%;
+    }
+
+    .head__titulo{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        margin: 8px 0px;
+    }
+
+    .head__descripcion{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 8px 0px;
+    }
+
+    .head__btn{
+        max-width: 118px;
+        width: 100%;
+    }
+
+}

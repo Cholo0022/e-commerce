@@ -1,0 +1,163 @@
+.agregar__producto{
+    display: flex;
+    flex-direction: column;
+    max-width: 559px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h2{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: start;
+    margin: 16px 0px;
+}
+
+.carga__producto {
+    display: flex;
+    align-items: center;
+}
+
+.carga__producto p{
+    margin: 0px 8px;
+    font-size: 16px;
+}
+
+.arrastrar__imagen{
+    max-width: 301px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px dashed #C8C8C8;
+    box-sizing: border-box;
+    margin: 0 8px 0 0;
+}
+
+.icono__agregar{
+    background: url(../images/icon-agregar-imagen.svg);
+    margin: 16px auto;
+    width: 32px;
+    height: 32px;
+}
+
+.agregar__mobile{
+    display: none;
+}
+
+.agregar__imagen p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B6B6B;
+    margin: 16px 0px;
+}
+
+.computador__imagen{
+    max-width: 229px;
+}
+
+.file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    }
+    .file-input::before {
+    content: 'Busque en su computador';
+    display: inline-block;
+    color: #2A7AE4;
+    max-width: 180px;
+    width: 100%;
+    border: 1px solid #2A7AE4;
+    border-radius: 3px;
+    padding: 16px;
+    cursor: pointer;
+    text-align: center;
+    }
+      
+.formulario__producto{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__producto label{
+    background-color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+.formulario__producto input{
+    border: #FFFFFF;
+    margin-top: 0;
+    padding: 16px;
+}
+
+
+.formulario__producto button{
+    padding: 16px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+    margin: 16px 0px;
+}
+
+select {
+    border: none;
+    color: #6B6B6B;
+}
+
+.verProducto{
+    display: none;
+}
+
+
+
+@media screen and (max-width:768px){
+
+    .agregar__producto{
+        width: 100%;
+        max-width: 1136px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .agregar__producto h2{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .icono__agregar{
+        background: url(../images/banner-image-mobile.png);
+        margin: 16px 0;
+        width: 32px;
+        height: 32px;
+    }  
+
+    .arrastrar__imagen {
+        max-width: 360px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .computador__imagen{
+        display: none;
+    }
+
+    .arrastrar {
+        display: none;
+    }
+
+    .opcion{
+        display: none
+    }
+    .agregar__mobile{
+        display: block;
+    }
+
+    .carga__producto p{
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 0;
+    }
+}

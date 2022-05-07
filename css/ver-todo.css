@@ -1,0 +1,5 @@
+.ver__todos-productos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1136px;
+}

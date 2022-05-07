@@ -1,0 +1,154 @@
+.galeria__productos {
+    display: flex;
+    margin: auto;  
+    padding: 0  0 64px 0;
+}
+
+.header__section{
+    display: flex;
+    align-items: center;
+    
+    padding-top: 64px;
+    font-weight: bold;
+    max-width: 1136px;
+    width: 100%;
+}
+
+.categoria__titulo{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.ver__todo{
+    margin-left: auto;
+    cursor: pointer;
+    color: #2A7AE4;
+    display: flex;
+}
+
+.ver__todo img{
+    margin-left: 5px;
+}
+
+.ver__todo a{
+    display: flex;
+}
+
+.header__section a {
+    margin-right: 8px;
+} 
+
+.linea_productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.producto{
+    max-width: 176px;
+    width: 100%;
+}
+
+.producto__imagen {
+    margin: 8px 0px;
+    width: 100%;
+}
+
+.producto__nombre{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 8px 0px;
+}
+
+.producto__precio{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 8px 0px;
+}
+
+.producto a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    margin: 8px 0px;
+}
+
+.modificar{
+    display: none;
+}
+
+.eliminar{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .linea_productos div:nth-child(5){
+        display: none;
+    }
+    .linea_productos div:nth-child(6){
+        display: none;
+    }
+
+    .producto__imagen {
+        max-width: 164px;
+        max-height: 174px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__section img, h2{
+        margin: 0px 8px;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .linea_productos div:nth-child(3){
+        display: none;
+    }
+    .linea_productos div:nth-child(4){
+        display: none;
+    }
+
+    .producto__imagen {
+        max-width: 156px;
+        max-height: 174px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__section{
+        margin: 0px;
+        padding: 16px 0 0;
+    }
+
+    .categoria__titulo{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .header__section a{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .header__section img {
+        max-width: 10.67px;
+        max-height: 10.67px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .linea_productos a {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}

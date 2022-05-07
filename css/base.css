@@ -1,0 +1,95 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+}
+
+main{
+    background:#E5E5E5;  
+}
+
+.container {
+    max-width: 1136px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.image__logo{   
+    max-width: 176px;
+    width: 100%; 
+} 
+
+footer{
+    background: #EAF2FD;
+}
+
+
+/* ******************* Validaciones ********************************** */
+
+.input-container {
+    
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    border: none;
+    padding: 1.375rem 0.5rem 0.5rem;
+    width: 100%;
+    background: #FFFFFF;
+  }
+  
+  .input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+    
+  .input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .input {
+    border: 1px solid #df2525;
+    border-radius: 7px;
+  }
+  
+  .input-mensaje-error {
+    display: none;
+  }
+  
+  .input-container--invalid .input-mensaje-error {
+    color: #df2525;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+/* ******************************************************************* */
+
+
+@media screen and (max-width:768px) {
+    .image__logo{   
+        max-width: 100px;
+        width: 100%;        
+    } 
+    
+}
+
+@media screen and (max-width:360px){
+    .image__logo{   
+        max-width: 176px;
+        width: 100%;  
+    } 
+       
+}

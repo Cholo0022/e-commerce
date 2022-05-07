@@ -1,16 +1,164 @@
 {
-  "posts":[
+  "producto": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "url": "images/star-wars3.svg",
+      "nombre": "Star wars 3",
+      "precio": "102",
+      "descripcion": "Star wars 3",
+      "tipo": "starWars",
+      "id": "934137a9-0461-4e78-9226-baece0f03b6c"
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "url": "images/star-wars4.svg",
+      "nombre": "Star wars 4",
+      "precio": "103",
+      "descripcion": "Star wars 4",
+      "tipo": "starWars",
+      "id": "5937c6db-1019-4194-8f49-e91dfcb28650"
+    },
+    {
+      "url": "images/star-wars5.svg",
+      "nombre": "Star wars 5",
+      "precio": "104",
+      "descripcion": "Star wars 5",
+      "tipo": "starWars",
+      "id": "992d1705-a444-4dd8-9c74-690a2fe58c60"
+    },
+    {
+      "url": "images/star-wars6.svg",
+      "nombre": "Star wars 6",
+      "precio": "105",
+      "descripcion": "Star wars 6",
+      "tipo": "starWars",
+      "id": "9e66253a-da5c-4ab2-84d0-8e7109c83876"
+    },
+    {
+      "url": "images/consola.svg",
+      "nombre": "Consola 1",
+      "precio": "201",
+      "descripcion": "Consola 1",
+      "tipo": "consolas",
+      "id": "814b03f0-4e97-492f-81db-80a4b3d77eb2"
+    },
+    {
+      "url": "images/consola1.svg",
+      "nombre": "Consola 2",
+      "precio": "202",
+      "descripcion": "Consola 2",
+      "tipo": "consolas",
+      "id": "ab696cd5-19e5-4032-82f0-646450d7e597"
+    },
+    {
+      "url": "images/consola2.svg",
+      "nombre": "Consola 3",
+      "precio": "203",
+      "descripcion": "Consola 3",
+      "tipo": "consolas",
+      "id": "bfb9e553-7a67-4b5b-b6b7-201c5e8f4443"
+    },
+    {
+      "url": "images/consola3.svg",
+      "nombre": "Consola 4",
+      "precio": "204",
+      "descripcion": "Consola 4",
+      "tipo": "consolas",
+      "id": "bb10d454-4790-4c3b-9f82-5c1dec22b7a9"
+    },
+    {
+      "url": "images/consola4.svg",
+      "nombre": "Consola 5",
+      "precio": "205",
+      "descripcion": "Consola 5",
+      "tipo": "consolas",
+      "id": "2cd47789-d632-499f-8036-2a4ad520472f"
+    },
+    {
+      "url": "images/consola5.svg",
+      "nombre": "Consola 6",
+      "precio": "206",
+      "descripcion": "Consola 6",
+      "tipo": "consolas",
+      "id": "fa39a153-8a9f-4114-9f99-69db8cb57206"
+    },
+    {
+      "url": "images/diverso.svg",
+      "nombre": "Diverso 1",
+      "precio": "121",
+      "descripcion": "Diverso 1",
+      "tipo": "diversos",
+      "id": "5ae31b96-a6b5-4619-9b8b-bbafb3105e88"
+    },
+    {
+      "url": "images/diverso1.svg",
+      "nombre": "Diverso 2",
+      "precio": "122222",
+      "descripcion": "Diverso 2",
+      "tipo": "diversos",
+      "id": "0fced4f3-0ebd-4d08-bf65-611a34d9392b"
+    },
+    {
+      "url": "images/diverso2.svg",
+      "nombre": "Diverso 3",
+      "precio": "123",
+      "descripcion": "Diverso 3",
+      "tipo": "diversos",
+      "id": "1ec752ef-8488-4654-a17a-5eac1e2c4766"
+    },
+    {
+      "url": "images/diverso3.svg",
+      "nombre": "Diverso 4",
+      "precio": "213",
+      "descripcion": "Diverso 4",
+      "tipo": "diversos",
+      "id": "798f0b73-b193-421e-ab76-d51a6fec17e2"
+    },
+    {
+      "url": "images/diverso4.svg",
+      "nombre": "Diverso 5",
+      "precio": "235",
+      "descripcion": "Diverso 5",
+      "tipo": "diversos",
+      "id": "69b31df4-93d7-4115-b094-febab990f048"
+    },
+    {
+      "url": "images/diverso5.svg",
+      "nombre": "Diverso 6",
+      "precio": "453",
+      "descripcion": "Diverso 6",
+      "tipo": "diversos",
+      "id": "8bc6dcca-19fd-42be-a2be-748aee6d314b"
+    },
+    {
+      "url": "images/star-wars1.svg",
+      "nombre": "Star wars 1",
+      "precio": "2342",
+      "descripcion": "Star wars 1",
+      "tipo": "starWars",
+      "id": "485bc77e-d456-4f61-b207-2bda50d2cda3"
+    },
+    {
+      "url": "images/star-wars5.svg",
+      "nombre": "Star wars modificado",
+      "precio": "123",
+      "descripcion": "Star Wars 2 borrado",
+      "tipo": "starWars",
+      "id": "c5c15cd5-49af-4c3b-98d1-bff2d36a56b1"
+    },
+    {
+      "url": "images/star-wars4.svg",
+      "nombre": "Star wars nuevo",
+      "precio": "124",
+      "descripcion": "Star wars nuevo",
+      "tipo": "starWars",
+      "id": "5a13d0ff-ba0c-476e-9f3a-29af8c345934"
+    },
+    {
+      "url": "images/diverso2.svg",
+      "nombre": "Duverso Nuevo",
+      "precio": "12",
+      "descripcion": "Diverso nuevo",
+      "tipo": "diversos",
+      "id": "5f4d7a27-aa90-4651-aa4e-cd5e22d5f1d9"
     }
   ]
 }
